@@ -1,0 +1,131 @@
+"editor.tokenColorCustomizations": {
+    "[Visual Studio Dark]": {
+      "functions": {
+        "foreground": "#F09449"
+      },
+      "strings": "#B5BD68",
+      "comments": "#999999",
+
+      "textMateRules": [
+        {
+          "scope": "variable.other.object.property",
+          "settings": {
+            "foreground": "#88C9FD"
+          }
+        },
+        {
+          "scope": "variable.other.property",
+          "settings": {
+            "foreground": "#88C9FD"
+          }
+        }
+      ],
+      "types": "#4EC9B0"
+    },
+    "[Visual Studio Light]": {
+      "functions": {
+        "foreground": "#00375e"
+      },
+      "types": {
+        "foreground": "#79006b",
+        "fontStyle": "bold"
+      },
+      "strings": {
+        "foreground": "#016e0c",
+        "fontStyle": "bold"
+      },
+      "numbers": {
+        "fontStyle": "bold",
+        "foreground": "#2b00ff"
+      },
+      "keywords": {
+        "foreground": "#0f12c6",
+        "fontStyle": "bold"
+      },
+      "textMateRules": [
+        {
+          "scope": "entity.name.tag",
+          "settings": {
+            "foreground": "#0f0175",
+            "fontStyle": "bold"
+          }
+        },
+        {
+          "scope": "comment.line.double-slash",
+          "settings": {
+            "foreground": "#878787",
+            "fontStyle": "bold"
+          }
+        },
+        {
+          "scope": "variable.other.object.property",
+          "settings": {
+            "foreground": "#da610b"
+          }
+        },
+        {
+          "scope": "entity.other.attribute-name",
+          "settings": {
+            "foreground": "#930235",
+            "fontStyle": "bold"
+          }
+        },
+        {
+          "scope": "variable.other.readwrite.alias.js",
+          "settings": {
+            "foreground": "#0f12c6",
+            "fontStyle": "bold"
+          }
+        },
+        {
+          "scope": "keyword.operator.expression.typeof",
+          "settings": {
+            "foreground": "#0f12c6",
+            "fontStyle": "bold"
+          }
+        },
+        {
+          "scope": "variable.language.this",
+          "settings": {
+            "foreground": "#0f12c6",
+            "fontStyle": "bold"
+          }
+        },
+        {
+          "scope": "storage.modifier",
+          "settings": {
+            "foreground": "#0f12c6",
+            "fontStyle": "bold"
+          }
+        },
+        {
+          "scope": "keyword.operator.new",
+          "settings": {
+            "foreground": "#0f12c6",
+            "fontStyle": "bold"
+          }
+        },
+        {
+          "scope": "constant.language.import-export-all",
+          "settings": {
+            "foreground": "#0f12c6",
+            "fontStyle": "bold"
+          }
+        },
+        {
+          "scope": "keyword.other.debugger",
+          "settings": {
+            "foreground": "#0f12c6",
+            "fontStyle": "bold"
+          }
+        },
+        {
+          "scope": "keyword.operator.expression",
+          "settings": {
+            "foreground": "#0f12c6",
+            "fontStyle": "bold"
+          }
+        }
+      ]
+    }
+  }
